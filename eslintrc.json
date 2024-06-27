@@ -1,0 +1,14 @@
+{
+        "parser": "@typescript-eslint/parser",
+        "plugins": ["@typescript-eslint"],
+        "extends": ["eslint:recommended", "plugin:@typescript-eslint/recommended"],
+        "rules": {
+            "import/extensions": "off",
+            "import/no-unresolved": "off",
+            "class-methods-use-this": "off",
+            "no-console": "off",
+            "no-underscore-dangle": "off",
+            "no-use-before-define": "off"
+        }
+    }
+    
